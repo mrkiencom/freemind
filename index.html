@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <script language="javascript" src="main.js"></script>
+    <form action="submit" method="POST" onsubmit="return validate()">
+        <div class="main">
+            <div class="top">
+                <img src="./backgroumnd.png" alt="">
+                <p>Hãy gửi CV của bạn cho chúng tôi</p>
+            </div>
+            <hr>
+            <div class="bot">
+
+                <div class="a1">
+                    <label for="phonenumber"><b>Tên của bạn</b></label>
+                    <input type="text" placeholder="Nguyen van A" name="username" id="username">
+                </div>
+                <div class="a1">
+                    <label for="phonenumber"><b>Số điện thoại</b></label>
+                    <input type="text" placeholder="Số điện thoại liên lạc" name="phonenumber" id="phonenumber">
+                </div>
+                <div class="a1">
+                    <label for="vt"><b>Vị trí</b></label>
+                    <select id="select">
+                        <option>Fresher Ecommerce Web Developer</option>
+                        <option>Junior Ecommerce Web Developer</option>
+                        <option>Senior Ecommerce Web Developer</option>
+                       
+                    </select>
+                </div>
+                <div class="a1 a2">
+                    <label for="exp"><b>Kinh nghiệm làm việc</b></label>
+                    <!-- <input type="text" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h
+                    as been the industry's standard d scrambled it to make a type specimen book." name="exe" id="exe"> -->
+                    <textarea id="exp" style="height: 150px;" rows="4" cols="50" name="comment" form="usrform" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard d scrambled it to make a type specimen book."></textarea>
+                </div>
+                <div class="file-loading">
+                    <input id="input-folder-1" type="file">
+                </div>
+                <div class="a1">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Ex: contact@freemind.vn" name="email" id="email">
+                </div>
+                <button type="submit" class="submit">Gửi CV cho Freemidn</button>
+
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
